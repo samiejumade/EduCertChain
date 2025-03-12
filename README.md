@@ -27,7 +27,7 @@ git clone <repository-url>
 
 2. Install dependencies:
 ```bash
-cd BlockChain-Based-Document-Verification-With-IPFS
+cd EduCertChain 
 npm install
 ```
 
@@ -41,7 +41,7 @@ npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
-5. Update contract address in js/verify.js with the deployed contract address
+5. Update contract address in js/verify.js and js/App.js with the deployed contract address
 
 6. Install IPFS desktop application from https://ipfs.tech/#install
 
@@ -57,5 +57,3 @@ npx hardhat run scripts/deploy.js --network localhost
 4. The system will display a message indicating whether the document is authentic or not.
 
 Thank you for using our system!
-
-Demo Video Link: 
